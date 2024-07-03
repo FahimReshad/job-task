@@ -1,8 +1,10 @@
 import React from "react";
+import whoWeAreImg from "../../public/Media/Rectangle 24.png";
 import { MdArrowOutward } from "react-icons/md";
 const WhoWeAre = () => {
   return (
     <div className="flex flex-col lg:flex-row mt-10 lg:mt-20 gap-10 lg:gap-40">
+                                  {/* left side */}
       <div className="space-y-6 lg:space-y-12 lg:w-1/2 text-center lg:text-start">
         <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-4 py-2 w-fit mx-auto lg:mx-0">
           Who we are
@@ -24,14 +26,10 @@ const WhoWeAre = () => {
           </div>
         </p>
       </div>
-
+                                {/* right side */}
       <div className="lg:w-1/2 relative">
         <div>
-          <img
-            className="w-full h-full opacity-90"
-            src="../../public/Media/Rectangle 24.png"
-            alt=""
-          />
+          <img className="w-full h-full opacity-90" src={whoWeAreImg} alt="" />
         </div>
         <div>
           <div className="shadow-xl bg-[#020043] opacity-85 text-white rounded-3xl p-5 lg:p-10 space-y-3 lg:space-y-6 lg:absolute -left-28 -bottom-6 w-fit mx-auto -mt-28 lg:-mt-0">
