@@ -54,7 +54,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-[#020043] btn-outline font-semibold">
+        <a className="btn text-[#020043] btn-outline font-semibold md:text-xl">
           Appointment <MdArrowOutward />
         </a>
       </div>
