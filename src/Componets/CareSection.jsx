@@ -1,5 +1,9 @@
 import { FaStar } from "react-icons/fa6";
-
+import circleImg from "../../public/Media/circle.png";
+import contractImg from "../../public/Media/contract.png";
+import groupImg from "../../public/Media/Group.png";
+import group1Img from "../../public/Media/Group1.png";
+import group2Img from "../../public/Media/Group2.png";
 const CareSection = () => {
   return (
     <div className="mt-10 lg:mt-20 grid grid-cols-2 lg:grid-cols-10 lg:grid-rows-12 gap-3 lg:gap-6 lg:max-h-96">
@@ -15,7 +19,7 @@ const CareSection = () => {
           Patient satisfaction <br /> rate, reflecting our <br /> commitment.
         </p>
         <div className="flex justify-end items-end">
-          <img className="w-1/4 lg:w-fit" src="../../public/Media/circle.png" alt="" />
+          <img className="w-1/4 lg:w-fit" src={circleImg} alt="" />
         </div>
       </div>
       <div className="bg-[#FFFFF5] shadow-xl rounded-3xl border lg:row-start-6 lg:row-end-12 p-4 lg:col-start-3 lg:col-end-5">
@@ -24,7 +28,7 @@ const CareSection = () => {
           Board-certified <br /> doctors
         </p>
         <div className="flex justify-end lg:-mt-4">
-          <img className="" src="../../public/Media/contract.png" alt="" />
+          <img className="" src={contractImg} alt="" />
         </div>
       </div>
       <div className="shadow-xl rounded-3xl border lg:row-start-7 lg:row-end-12 py-3 px-5 space-y-2 lg:col-start-5 lg:col-end-7">
@@ -34,7 +38,7 @@ const CareSection = () => {
         </div>
         <p className="text-[#020043]">Over 20,000 Patient</p>
         <div className="">
-          <img className="" src="../../public/Media/Group.png" alt="" />
+          <img className="" src={groupImg} alt="" />
         </div>
       </div>
       <div className="bg-[#FFFFF5] shadow-xl rounded-3xl border lg:row-start-6 lg:row-end-12 p-5 lg:col-start-7 lg:col-end-9">
@@ -44,7 +48,7 @@ const CareSection = () => {
           for poor patient
         </p>
         <div className="flex justify-end -mt-4">
-          <img className="" src="../../public/Media/Group1.png" alt="" />
+          <img className="" src={group1Img} alt="" />
         </div>
       </div>
       <div className="shadow-xl p-3 lg:p-6 rounded-3xl space-y-2 lg:space-y-4 border lg:row-start-1 lg:row-end-12 lg:col-start-9 lg:col-end-11">
@@ -54,7 +58,7 @@ const CareSection = () => {
           for patient
         </p>
         <div className="flex justify-center items-end">
-          <img className="w-1/4 lg:w-fit" src="../../public/Media/Group2.png" alt="" />
+          <img className="w-1/4 lg:w-fit" src={group2Img} alt="" />
         </div>
       </div>
     </div>
