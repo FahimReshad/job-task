@@ -1,9 +1,10 @@
+import banner from "../../public/Media/banner.png"
 const Banner = () => {
   return (
     <div>
       <img
         className="w-full mt-6 opacity-90"
-        src="../../public/Media/banner.png"
+        src={banner}
         alt=""
       />
     </div>

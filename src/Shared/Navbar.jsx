@@ -1,3 +1,4 @@
+import navbarLogo from "../../public/Media/logo dark.png";
 import { MdArrowOutward } from "react-icons/md";
 const Navbar = () => {
   const navLink = (
@@ -44,11 +45,13 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost">
-          <img src="../../public/Media/logo dark.png" alt="" />
+          <img src={navbarLogo} alt="logo" />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-[#020043] text-lg font-semibold">{navLink}</ul>
+        <ul className="menu menu-horizontal px-1 text-[#020043] text-lg font-semibold">
+          {navLink}
+        </ul>
       </div>
       <div className="navbar-end">
         <a className="btn text-[#020043] btn-outline font-semibold">
