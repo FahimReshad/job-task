@@ -20,7 +20,7 @@ const WhoWeAre = () => {
           patient with dignity, respect, and empathy, ensuring that they receive
           the attention and care they deserve.
           <div className="mt-6 lg:mt-12">
-            <btn className="btn text-[#020043] btn-outline font-semibold text-xl">
+            <btn className="btn text-[#020043] bg-[#FFC637] btn-outline font-semibold text-xl">
               Learn more <MdArrowOutward />
             </btn>
           </div>
