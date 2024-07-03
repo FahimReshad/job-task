@@ -1,17 +1,11 @@
-import { BiSolidPhoneCall } from "react-icons/bi";
-import { FaLocationDot } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
+import footerLogo from "../../public/Media/logo light.png";
 const Footer = () => {
   return (
     <footer className="px-4 divide-y bg-[#020043] dark:text-white mt-14 lg:py-20">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0 ml-0 md:ml-36 lg:ml-64">
         <div className="lg:w-[20%]">
           <a rel="noopener noreferrer">
-            <img
-              className="lg:-ml-9"
-              src="../../public/Media/logo light.png"
-              alt=""
-            />
+            <img className="lg:-ml-9" src={footerLogo} alt="footer logo" />
             <p className="text-lg text-[#C6C6C6] lg:-ml-10 mt-4 font-barlow">
               123 Main Street Anytown, USA
               <p>Postal Code: 12345</p>
