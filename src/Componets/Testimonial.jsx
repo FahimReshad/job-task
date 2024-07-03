@@ -8,7 +8,7 @@ const Testimonial = () => {
   return (
     <div className="mt-10 lg:mt-28">
       <div className="space-y-6">
-        <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-4 py-2 w-fit mx-auto lg:mx-0">
+        <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-10 py-2 w-fit mx-auto lg:mx-0">
           Testimonial
         </h3>
         <h1 className="text-3xl lg:text-5xl text-[#020043] font-bold text-center lg:text-start">

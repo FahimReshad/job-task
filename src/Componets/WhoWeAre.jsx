@@ -6,7 +6,7 @@ const WhoWeAre = () => {
     <div className="flex flex-col lg:flex-row mt-10 lg:mt-20 gap-10 lg:gap-40">
                                   {/* left side */}
       <div className="space-y-6 lg:space-y-12 lg:w-1/2 text-center lg:text-start">
-        <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-4 py-2 w-fit mx-auto lg:mx-0">
+        <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-8 py-2 w-fit mx-auto lg:mx-0">
           Who we are
         </h3>
         <h1 className="text-3xl md:text-3xl lg:text-5xl text-[#020043] font-bold">

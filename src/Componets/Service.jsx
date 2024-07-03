@@ -6,7 +6,7 @@ const Service = () => {
   return (
     <div className="mt-10 lg:mt-28 bg-[#FFFFF5] rounded-3xl p-10 grid md:grid-cols-2 gap-8">
       <div className="space-y-4 lg:space-y-12 text-center lg:text-start">
-        <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-4 py-2 w-fit mx-auto lg:mx-0">
+        <h3 className="text-xl font-semibold text-[#020043] border border-[#020043] rounded-full px-10 py-2 w-fit mx-auto lg:mx-0">
           Service
         </h3>
         <h1 className="text-3xl lg:text-5xl text-[#020043] font-bold">
